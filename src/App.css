@@ -1,0 +1,55 @@
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ebaa16;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+.main-header {
+    margin: 10px 0px;
+    color: #ebaa16;
+}
+
+.my-button {
+    padding: 10px;
+    border: none;
+    margin: 10px 0px;
+    font-size: 1.1rem;
+    background: linear-gradient(90deg, #ff9a9e 0%, #fecfef 100%);
+    color: #333;
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+    outline: none;
+}
+
+.my-button:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, #e47276 0%, #fecfef 100%);
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+.file-upload {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.output {
+    margin: 10px;
+    padding: 10px;
+}
+
+.text-input {
+    margin: 10px;
+    padding: 5px 0px;
+    border: none;
+}
+
+.text-input:focus {
+    border: none;
+    outline: none;
+}
