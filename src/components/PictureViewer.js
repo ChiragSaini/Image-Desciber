@@ -11,7 +11,7 @@ const PictureViewer = ({ imageUrl }) => {
             {
                 url ?
                     <img src={imageUrl} alt="Upload" className="picture-viewer-image" />
-                    : <h1 className="picture-viewer-header">No image yet!</h1>
+                    : <h1 className="picture-viewer-header">No image Selected </h1>
             }
         </div>
     )

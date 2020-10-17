@@ -47,7 +47,7 @@ function App() {
         loading && <img src={Loader} height={50} />
       }
       {
-        output && <div className="output">{output}</div>
+        output && <div className="output">Output: {output}</div>
       }
       <PictureViewer imageUrl={value} />
       {
@@ -55,7 +55,7 @@ function App() {
           ?
           <input className="file-upload" type="file" onChange={handleFileChange} />
           :
-          <input className="text-input" type="text" value={value} onChange={handleChange} />
+          <input className="text-input" type="text" value={value} onChange={handleChange} placeholder={"Enter Image URL"} />
       }
       {
         value && <button className="my-button" onClick={handleDescribe}>Let's Describe the Scene</button>
